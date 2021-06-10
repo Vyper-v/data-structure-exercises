@@ -1,2 +1,2 @@
 # data-structure-exercises
-Exercice to implement a List data structure, and make a playlist.
+Exercises to implement data structures
