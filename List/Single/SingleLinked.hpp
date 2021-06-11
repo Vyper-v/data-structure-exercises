@@ -9,7 +9,7 @@ class SingleLinked
 private:
   Node<value>* Head;
   Node<value>* Tail;
-  size_type size;
+  size_type Size;
 public:
   SingleLinked();
   ~SingleLinked();

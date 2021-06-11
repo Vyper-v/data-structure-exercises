@@ -9,7 +9,7 @@ class DoublyLinked
 private:
   Node<value>* Head;
   Node<value>* Tail;
-  size_type size;
+  size_type Size;
 public:
   DoublyLinked();
   ~DoublyLinked();
