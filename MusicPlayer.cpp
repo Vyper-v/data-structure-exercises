@@ -53,10 +53,10 @@ int main(int argc, char const *argv[])
   {
     cout << "Presione 'a' para cancion anterior" << endl;
     cout << "Presione 'b' para cancion siguiente" << endl;
-    cout << "  previus  "
-         << "  next  " << endl;
-    cout << "Song: " << music_player->get(actual).songName << endl;
-    cout << "Author: " << music_player->get(actual).authorName << endl;
+    cout << "    <<  previus"
+         << "   next >>" << endl;
+    cout << "Actual Song:    " << music_player->get(actual).songName << endl;
+    cout << "Author:         " << music_player->get(actual).authorName << endl;
     cin >> option;
     option = tolower(option);
     switch (option)
